@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="hopk2.css">
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Horten PistolKlubb</h1>
+        <form action="hopk1.php" method="post">
+            <label for="navn">Navn:</label>
+            <input type="text" id="navn" name="navn" required>
+
+            <label for="dato">Dato:</label>
+            <input type="date" id="dato" name="dato" required>
+
+            <label for="klubb">Klubb:</label>
+            <input type="text" id="klubb" name="klubb" required>
+
+            <label for="aktivitet">Aktiviteter:</label>
+            <select id="aktivitet" name="aktivitet" required>
+                <option value="" disabled selected>Velg en aktivitet</option>
+                <option value="Training">Training</option>
+                <option value="Dynamisk">Dynamisk</option>
+                <option value="Dugnad">Dugnad</option>
+                <option value=""></option>
+            </select>
+
+            <input type="submit" value="Registrer">
+        </form>
+    </div>
+</body>
+</html>
